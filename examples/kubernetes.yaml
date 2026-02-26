@@ -114,7 +114,7 @@ spec:
         ports:
         - containerPort: 5432
         volumeMounts:
-        - mountPath: /var/lib/postgresql/data
+        - mountPath: /var/lib/postgresql
           name: roundcubedb-volume
       restartPolicy: Always
       serviceAccountName: ""
